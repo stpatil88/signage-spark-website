@@ -4,7 +4,7 @@ export interface Service {
   title: string;
   description: string;
   icon: string;
-  images: string[];
+  features: string[];
 }
 
 export interface Testimonial {
@@ -23,7 +23,6 @@ export interface FormData {
   message: string;
 }
 
-// Adding a new GalleryImage interface for better typing
 export interface GalleryImage {
   src: string;
   alt: string;

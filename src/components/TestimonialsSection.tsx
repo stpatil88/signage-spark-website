@@ -6,27 +6,27 @@ import { Testimonial } from "@/types/types";
 const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Bhishma Developers",
-    service: "3D LED Sign Boards",
-    quote: "Royal Signage delivered an exceptional 3D sign that perfectly represents our brand. The quality and attention to detail is outstanding."
+    name: "Rajesh Patil",
+    service: "LIC Advisory",
+    quote: "Deepak made the LIC policy selection process very straightforward. He explained all the options clearly and helped me choose the right plan for my family's needs."
   },
   {
     id: "2",
-    name: "Hotel Hira Palace",
-    service: "2D LED Sign Boards",
-    quote: "The LED signage transformed our hotel's visibility at night. Customers now easily spot us from a distance. Great work by the Royal Signage team!"
+    name: "Sneha Joshi",
+    service: "Vehicle Insurance",
+    quote: "When I had an accident, the claim process was incredibly smooth thanks to Deepak's assistance. Quick resolution and complete coverage as promised!"
   },
   {
     id: "3",
-    name: "Deepak Medical",
-    service: "LED Sign Boards",
-    quote: "Excellent craftsmanship and professional service. Our pharmacy sign board looks modern and attracts more customers. Highly recommended!"
+    name: "Amit Sharma",
+    service: "Mutual Fund Advisory",
+    quote: "The investment strategy Deepak created for me has consistently outperformed my expectations. His regular portfolio reviews keep my investments on track."
   },
   {
     id: "4",
-    name: "Hotel Sangam",
-    service: "3D LED Sign Boards",
-    quote: "The team at Royal Signage understood our requirements perfectly and delivered a stunning sign board that has become a landmark in our area."
+    name: "Priya Deshmukh",
+    service: "Home Loans",
+    quote: "Getting a home loan seemed like a daunting process until I consulted with Deepak. He helped me secure a great interest rate and handled all the paperwork."
   }
 ];
 
@@ -80,7 +80,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section id="testimonials" className="section-padding bg-gradient-to-b from-royal-gray/30 to-royal-black relative overflow-hidden">
+    <section id="testimonials" className="section-padding bg-gradient-to-b from-royal-black to-royal-gray/30 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-20 left-10 opacity-10">
         <Quote size={200} className="text-royal-cyan" />
@@ -95,7 +95,7 @@ const TestimonialsSection = () => {
             Client <span className="text-royal-cyan">Testimonials</span>
           </h2>
           <p className="text-royal-white/70 max-w-2xl mx-auto">
-            Hear what our clients have to say about their experience working with Royal Signage.
+            Hear what our clients have to say about their experience working with Deepak Financial Services.
           </p>
         </div>
         

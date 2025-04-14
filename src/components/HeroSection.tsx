@@ -29,18 +29,18 @@ const HeroSection = () => {
           <div className="flex justify-center mb-8 animate-float">
             <img 
               src="/lovable-uploads/a25f3d13-4397-4151-bab4-6e9b8e32cdfd.png" 
-              alt="Royal Signage Logo" 
+              alt="Deepak Financial Services Logo" 
               className="w-72 md:w-96"
             />
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold font-heading mb-4">
-            <span className="text-royal-white">royal</span>{" "}
-            <span className="glow-text">signage</span>
+            <span className="text-royal-white">Deepak</span>{" "}
+            <span className="glow-text">Financial Services</span>
           </h1>
           
           <p className="text-xl md:text-2xl font-light italic text-royal-white/90 mb-8">
-            glow your brand here...
+            Securing your financial future...
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -48,7 +48,7 @@ const HeroSection = () => {
               onClick={() => scrollToSection("services")}
               className="bg-royal-cyan text-royal-black hover:bg-royal-cyan/80 text-lg px-8 py-6"
             >
-              View Services
+              Our Services
             </Button>
             <Button 
               onClick={() => scrollToSection("contact")}
@@ -64,7 +64,7 @@ const HeroSection = () => {
       {/* Scroll down indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 animate-bounce">
         <button 
-          onClick={() => scrollToSection("services")}
+          onClick={() => scrollToSection("about")}
           className="text-royal-white/80 hover:text-royal-cyan transition-colors"
           aria-label="Scroll down"
         >

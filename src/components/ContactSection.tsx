@@ -85,7 +85,7 @@ const ContactSection = () => {
             Contact <span className="text-royal-cyan">Us</span>
           </h2>
           <p className="text-royal-white/70 max-w-2xl mx-auto">
-            Ready to elevate your business with stunning signage? Get in touch with us today!
+            Ready to secure your financial future? Get in touch with us today!
           </p>
         </div>
         
@@ -120,8 +120,8 @@ const ContactSection = () => {
                 <div>
                   <h4 className="text-lg font-medium text-royal-white mb-1">Email</h4>
                   <p className="text-royal-white/70">
-                    <a href="mailto:royaldigital653@gmail.com" className="hover:text-royal-cyan transition-colors">
-                      royaldigital653@gmail.com
+                    <a href="mailto:deepakgarje.financial@gmail.com" className="hover:text-royal-cyan transition-colors">
+                      deepakgarje.financial@gmail.com
                     </a>
                   </p>
                 </div>
@@ -134,7 +134,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="text-lg font-medium text-royal-white mb-1">Location</h4>
                   <p className="text-royal-white/70">
-                    Muddal Titta, Kolhapur<br />
+                    Kopargaon<br />
                     Maharashtra, India
                   </p>
                 </div>
@@ -144,14 +144,14 @@ const ContactSection = () => {
             {/* Google Map */}
             <div className="mt-8 rounded-lg overflow-hidden h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15288.575251235755!2d74.21422173955077!3d16.70854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1006f4c27da91%3A0xc73cc32c99ea9925!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1712930204032!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.515888900186!2d74.47244723183104!3d19.88251930000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc587a7c456661%3A0xe87bf29e3a1f5ab7!2sKopargaon%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1712930204032!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Royal Signage Location"
+                title="Deepak Financial Services Location"
               ></iframe>
             </div>
           </div>
@@ -230,14 +230,11 @@ const ContactSection = () => {
                           className="w-full px-3 py-2 bg-royal-gray/30 border border-royal-gray/50 rounded-md text-royal-white"
                         >
                           <option value="" disabled>Select a service</option>
-                          <option value="2D LED Sign Boards">2D LED Sign Boards</option>
-                          <option value="3D LED Sign Boards">3D LED Sign Boards</option>
-                          <option value="Intercutting LED Boards">Intercutting LED Boards</option>
-                          <option value="Sun Boards">Sun Boards</option>
-                          <option value="Interior Design">Interior Design</option>
-                          <option value="CNC Router Cutting">CNC Router Cutting</option>
-                          <option value="Laser Cutting">Laser Cutting</option>
-                          <option value="Other">Other</option>
+                          <option value="LIC Advisory">LIC Advisory</option>
+                          <option value="Vehicle Insurance">Vehicle Insurance</option>
+                          <option value="Mutual Fund Advisory">Mutual Fund Advisory</option>
+                          <option value="Home Loans">Home Loans</option>
+                          <option value="All Financial Services">All Financial Services</option>
                         </select>
                       </FormControl>
                       <FormMessage />
@@ -253,7 +250,7 @@ const ContactSection = () => {
                       <FormLabel className="text-royal-white">Message</FormLabel>
                       <FormControl>
                         <Textarea 
-                          placeholder="Tell us about your project" 
+                          placeholder="Tell us about your financial goals or preferred appointment time" 
                           {...field} 
                           className="bg-royal-gray/30 border-royal-gray/50 text-royal-white resize-none min-h-[120px]"
                         />

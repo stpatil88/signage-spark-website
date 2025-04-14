@@ -9,7 +9,7 @@ const CHAT_ID = "YOUR_CHAT_ID";
 export const sendToTelegram = async (data: FormData): Promise<boolean> => {
   try {
     const text = `
-🔔 *New Inquiry from Website*
+🔔 *New Inquiry from Deepak Financial Services Website*
     
 *Name:* ${data.name}
 *Phone:* ${data.phone}
