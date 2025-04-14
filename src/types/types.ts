@@ -22,3 +22,10 @@ export interface FormData {
   service: string;
   message: string;
 }
+
+// Adding a new GalleryImage interface for better typing
+export interface GalleryImage {
+  src: string;
+  alt: string;
+  category: string;
+}

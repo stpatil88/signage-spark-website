@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
@@ -27,6 +26,36 @@ const galleryImages = [
     src: "/lovable-uploads/c0f87594-4788-4c47-b01a-dc19e1608275.png",
     alt: "Royal Signage logo",
     category: "Branding"
+  },
+  {
+    src: "/lovable-uploads/e5efc5f0-9332-482a-84d2-c082c0018a28.png",
+    alt: "Shri Dhanvantari Multi-specialty Hospital sign board",
+    category: "3D LED"
+  },
+  {
+    src: "/lovable-uploads/cdfdc032-4a79-4fec-bd0b-58704916b985.png",
+    alt: "Patil Health Pharmacy sign board",
+    category: "2D LED"
+  },
+  {
+    src: "/lovable-uploads/b5dcb4a9-f178-4e5c-b7c1-a4c3fa36f24f.png",
+    alt: "Hotel Sangam sign board with backlight",
+    category: "2D LED"
+  },
+  {
+    src: "/lovable-uploads/1e58b324-8a95-46d4-9659-791790d1cdb8.png",
+    alt: "Jay Hospital medical center sign board",
+    category: "3D LED"
+  },
+  {
+    src: "/lovable-uploads/2fb663b9-fd62-4402-91e6-6d00cef1119f.png",
+    alt: "Hotel Peacock illuminated sign board",
+    category: "3D LED"
+  },
+  {
+    src: "/lovable-uploads/5d0cd306-b84e-4e3d-a461-6803ecf8ce5f.png",
+    alt: "Shri Dhanvantari Hospital complete sign board with departments",
+    category: "3D LED"
   },
 ];
 

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Service } from "@/types/types";
 import { Button } from "@/components/ui/button";
@@ -13,7 +12,9 @@ const services: Service[] = [
     icon: "Lightbulb",
     images: [
       "/lovable-uploads/da65d93f-28f5-4682-b655-b91ddb2f5061.png",
-      "/lovable-uploads/0f91a9b1-dc75-432f-83f7-2a5224f5fbd2.png"
+      "/lovable-uploads/0f91a9b1-dc75-432f-83f7-2a5224f5fbd2.png",
+      "/lovable-uploads/cdfdc032-4a79-4fec-bd0b-58704916b985.png",
+      "/lovable-uploads/b5dcb4a9-f178-4e5c-b7c1-a4c3fa36f24f.png"
     ]
   },
   {
@@ -23,7 +24,10 @@ const services: Service[] = [
     icon: "Layers",
     images: [
       "/lovable-uploads/670dd18e-8c0b-45f2-99f5-bc73f28b2cad.png",
-      "/lovable-uploads/b063bc5b-080c-4300-838e-8fe28ad235fd.png"
+      "/lovable-uploads/b063bc5b-080c-4300-838e-8fe28ad235fd.png",
+      "/lovable-uploads/e5efc5f0-9332-482a-84d2-c082c0018a28.png",
+      "/lovable-uploads/1e58b324-8a95-46d4-9659-791790d1cdb8.png",
+      "/lovable-uploads/2fb663b9-fd62-4402-91e6-6d00cef1119f.png"
     ]
   },
   {
@@ -33,7 +37,8 @@ const services: Service[] = [
     icon: "Scissors",
     images: [
       "/lovable-uploads/670dd18e-8c0b-45f2-99f5-bc73f28b2cad.png",
-      "/lovable-uploads/0f91a9b1-dc75-432f-83f7-2a5224f5fbd2.png"
+      "/lovable-uploads/0f91a9b1-dc75-432f-83f7-2a5224f5fbd2.png",
+      "/lovable-uploads/5d0cd306-b84e-4e3d-a461-6803ecf8ce5f.png"
     ]
   },
   {
@@ -42,7 +47,8 @@ const services: Service[] = [
     description: "Durable, weather-resistant sign boards perfect for outdoor advertising.",
     icon: "Sun",
     images: [
-      "/lovable-uploads/b063bc5b-080c-4300-838e-8fe28ad235fd.png"
+      "/lovable-uploads/b063bc5b-080c-4300-838e-8fe28ad235fd.png",
+      "/lovable-uploads/cdfdc032-4a79-4fec-bd0b-58704916b985.png"
     ]
   },
   {
